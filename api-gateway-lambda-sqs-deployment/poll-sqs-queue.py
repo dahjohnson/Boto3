@@ -9,8 +9,7 @@ queue = client.get_queue_url(
     QueueName=queue_name)
 
 response = client.receive_message(
-    QueueUrl=queue['QueueUrl'],
-    MaxNumberOfMessages=10
+    QueueUrl=queue['QueueUrl']
 )
 
 print(json.dumps(response,indent=2))

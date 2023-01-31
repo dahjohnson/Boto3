@@ -15,7 +15,7 @@ create_lambda = lambda_function.create_function(
     Runtime='python3.9',
     Role=lambda_execution_role['Role']['Arn'],
     Handler='lambda-function.lambda_handler',
-    Code={'ZipFile': open('lambda_function.zip', 'rb').read()},
+    Code={'ZipFile': open('lambda-function.zip', 'rb').read()},
     Publish=True,
     PackageType='Zip'
 )
