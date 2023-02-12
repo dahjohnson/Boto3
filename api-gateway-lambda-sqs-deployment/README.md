@@ -1,9 +1,13 @@
-PROJECT OBJECTIVES:
+<h1 align="center">Deploy API Gateway, Lambda, and SQS with Python SDK (Boto3)</h1>
 
-1. Create a Standard SQS Queue using Python.
-2. Create a Lambda function in the console with a Python 3.7 or higher runtime.
-3. Modify the Lambda to send a message to the SQS queue.
-4. Create an API gateway HTTP API type trigger.
-5. Test the trigger to verify the message was sent.
+![aws-deployment-cover](https://user-images.githubusercontent.com/116639830/218316337-530189bb-9ed9-470c-8601-671720f41202.png)
 
-NOTE: Don't forget to ZIP lambda-funciton.py and save to same dir! 
+- [Medium Blog Walkthrough](https://medium.com/towards-aws/deploy-api-gateway-lambda-and-sqs-with-python-sdk-boto3-69e38985b69e "<deploy-api-gateway-lambda-and-sqs-with-python-sdk-boto3-69e38985b69e> Medium Blog Walkthrough")
+  
+## Objectives:
+
+### - Create a Standard SQS Queue using Python
+### - Create a Lambda function using Python
+### - Modify the Lambda to send a message that returns the current time (UTC) to the SQS queue
+### - Create an API gateway HTTP API type trigger using Python
+### - Test the trigger to verify the message was sent
