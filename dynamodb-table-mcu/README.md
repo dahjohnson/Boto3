@@ -10,3 +10,23 @@
 ### - Update DynamoDB Table
 ### - Scan/Query DynamoDB Table
 ### - Delete DynamoDB Table
+
+## Commands
+
+### Install Bobo3
+`pip install boto3`
+
+### Create DynamoDB Table
+`python3 create-dynamodb-table.py`
+
+### Upload Marvel Character JSON data to DynamoDB Table
+`python3 upload-mcu-characters-data.py`
+
+### Scan DynamoDB Table
+`python3 scan-table.py`
+
+### Query DynamoDB Table
+`python3 query-table.py`
+
+### Delete DynamoDB Table
+`python3 delete-table.py`
