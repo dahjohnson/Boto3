@@ -1,4 +1,4 @@
-<h1 align="center">Deploy API Gateway, Lambda, and SQS with Python SDK (Boto3)</h1>
+# Deploy API Gateway, Lambda, and SQS with Python SDK (Boto3)
 
 ![aws-deployment-cover](https://user-images.githubusercontent.com/116639830/218316337-530189bb-9ed9-470c-8601-671720f41202.png)
 
