@@ -159,7 +159,7 @@ def createEC2():
     
     instance = ec2.create_instances(
         ImageId=imageid,
-        InstanceType='t2.medium',
+        InstanceType='t2.micro',
         KeyName=keyname,
         MaxCount=1,
         MinCount=1,
